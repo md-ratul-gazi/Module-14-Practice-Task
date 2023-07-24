@@ -41,6 +41,10 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "title-color": "#414040",
+              "text-color": "#707070",
+              "primary-btn-bg": "#B68C5A",
+              "primary-btn-text": "#fff"
             },
           },
         },
@@ -60,6 +64,112 @@
     <!-- Custom Vanilla CSS style here  -->
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <!-- Header section style starts here -->
+    <header class="container mx-auto">
+      <!-- Nav section starts here -->
+      <nav class="mt-10">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a class="text-text-color font-poppins font-normal text-base"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a class="text-text-color font-poppins font-normal text-base"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a class="text-text-color font-poppins font-normal text-base"
+                    >Cases</a
+                  >
+                </li>
+                <li>
+                  <a class="text-text-color font-poppins font-normal text-base"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a class="text-text-color font-poppins font-normal text-base"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="flex items-center">
+              <a class="btn btn-ghost normal-case text-xl"
+                ><img src="images/business.png" alt="Logo" class="w-11" />
+              </a>
+              <h1 class="font-Eb text-4xl font-extrabold text-title-color">
+                Justice
+              </h1>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a class="text-text-color font-poppins font-normal text-base"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="text-text-color font-poppins font-normal text-base"
+                  >Services<i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-text-color font-poppins font-normal text-base"
+                  >Cases<i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-text-color font-poppins font-normal text-base"
+                  >Blog<i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-text-color font-poppins font-normal text-base"
+                  >Contact Us<i class="fa-solid fa-angle-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn h-16 bg-primary-btn-bg text-primary-btn-text ">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Nav section ends here -->
+    </header>
+    <!-- Header section style ends here -->
+
+    <!-- Main section style starts here -->
+    <main></main>
+    <!-- Main section style ends here -->
+    <!-- Footer section style starts here -->
+    <footer></footer>
+    <!-- Footer section style ends here -->
   </body>
 </html>
